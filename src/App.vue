@@ -34,6 +34,12 @@
   </div>
 </nav>
 <router-view></router-view>
+
+<nav class="navbar fixed-bottom navbar-light bg-dark">
+  <a class="navbar-brand" href="#">Fixed bottom</a>
+</nav>
+
+
 </div>
 
 
