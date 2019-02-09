@@ -42,17 +42,22 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  padding: 20px;
 
+}
 h3 {
-  margin: 40px 0 0;
+  margin: 40px 10px 10px;
 }
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: 20px;
 }
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 20px 10px;
 }
 a {
   color: #42b983;
