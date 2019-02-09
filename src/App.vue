@@ -1,20 +1,24 @@
 <template>
   <div id="app">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+  <nav class="navbar navbar-expand-md navbar-light bg-dark ">
 
   
   <a class="navbar-brand inactive_link">
     <img src="./assets/logo.png" width="70" height="70" alt="">
   </a>
 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my_navbar123" aria-controls="my_navbar123" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <div class="collapse navbar-collapse " id="navbarSupportedContent">
-    <ul class="nav navbar-nav  navbar-right">
+
+  <div class="collapse navbar-collapse " id="my_navbar123">
+    <ul class="nav navbar-nav ">
       <li class="nav-item active">
         
         <router-link to="/home">
-        <a class="nav-link text-light h5 "> Home <span class="sr-only">(current)</span> </a>
+        <a class="nav-link text-light h5"> Home <span class="sr-only">(current)</span> </a>
         </router-link>
       </li>
       <li class="nav-item active">
@@ -34,12 +38,47 @@
   </div>
 </nav>
 <router-view></router-view>
+<footer id="sticky-footer" class="py-4 bg-dark text-light fixed-bottom">
+    <div class="container text-center">
+      <div class="ml-1">
+        <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-1.3x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-1.3x"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-1.3x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-1.3x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-1.3x"> </i>
+            </a>
+    </div>
+    </div>
+  </footer>
 
-<nav class="navbar fixed-bottom navbar-light bg-dark">
-  <a class="navbar-brand" href="#">Fixed bottom</a>
-</nav>
 
 
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Elements -->
+    
 </div>
 
 
