@@ -1,30 +1,32 @@
 <template>
   <div id="app">
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  <a class="navbar-brand" href="#">
-    <img src="./assets/logo.png" width="80" height="80" alt="">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+
+  
+  <a class="navbar-brand inactive_link">
+    <img src="./assets/logo.png" width="70" height="70" alt="">
   </a>
 
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="nav navbar-nav  navbar-right">
       <li class="nav-item active">
         
         <router-link to="/home">
-        <a class="nav-link text-light"> Home <span class="sr-only">(current)</span> </a>
+        <a class="nav-link text-light h5 "> Home <span class="sr-only">(current)</span> </a>
         </router-link>
       </li>
       <li class="nav-item active">
         
         <router-link to="/leaderboard">
-        <a class="nav-link text-light"> Leaderboard <span class="sr-only">(current)</span> </a>
+        <a class="nav-link text-light h5"> Leaderboard <span class="sr-only">(current)</span> </a>
         </router-link>
       </li>
       <li class="nav-item active">
         
         <router-link to="/status">
-        <a class="nav-link text-light"> Status <span class="sr-only">(current)</span> </a>
+        <a class="nav-link text-light h5"> Status <span class="sr-only">(current)</span> </a>
         </router-link>
       </li>
     </ul>
@@ -64,4 +66,11 @@ export default {
 </script>
 
 <style>
+
+
+
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
 </style>
