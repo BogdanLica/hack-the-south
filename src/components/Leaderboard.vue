@@ -1,5 +1,7 @@
 <template>
-  <div class="hello">
+  <div class="hello" style="font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  padding: 30px;">
      <vueye-table 
      tableStyle="bordered" 
      :theme="theme3" 
@@ -20,7 +22,7 @@ export default {
      Ranking_attribute :["rank", "name", "money"],
      Ranking_data: [],
      theme3: {
-            backgroundColor: "#141443",
+            backgroundColor: "#364859",
             color: "#eee",
             rows:{
                 borderBottom: "1px solid #eee"
@@ -41,25 +43,11 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-body{
+<style lang="scss">
+Vu{
   font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-  padding: 20px;
+  height: 50%;
+  padding: 200px;
 
-}
-h3 {
-  margin: 40px 10px 10px;
-}
-ul {
-  list-style-type: none;
-  padding: 20px;
-}
-li {
-  display: inline-block;
-  margin: 20px 10px;
-}
-a {
-  color: #42b983;
 }
 </style>

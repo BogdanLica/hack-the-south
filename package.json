@@ -13,7 +13,9 @@
     "@fortawesome/vue-fontawesome": "^0.1.5",
     "bootstrap-vue": "^2.0.0-rc.11",
     "i": "^0.3.6",
+    "node-sass": "^4.11.0",
     "npm": "^6.7.0",
+    "sass-loader": "^7.1.0",
     "vue": "^2.5.22",
     "vue-router": "^3.0.2",
     "vueye-datatable": "^0.1.16"
