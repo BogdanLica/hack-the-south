@@ -43,11 +43,5 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss">
-Vu{
-  font-family: Arial, Helvetica, sans-serif;
-  height: 50%;
-  padding: 200px;
-
-}
+<style >
 </style>
