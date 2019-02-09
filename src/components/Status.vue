@@ -4,6 +4,7 @@
           <h4 >
             <CountdownTimer vs-offset=8 date="2019-07-06 08:15:00"> </CountdownTimer>
           </h4>
+
 </div>
 </template>
 
@@ -11,7 +12,7 @@
 <script>
 
 export default {
-  name: 'HelloWorld',
+  name: 'Status',
    components: {
     CountdownTimer
   },
@@ -30,10 +31,7 @@ import CountdownTimer from './Timer.vue'
     bottom: 0;
     display: flex;
     justify-content: center;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top:0;
+    background-color:#364859; 
 }
 
 

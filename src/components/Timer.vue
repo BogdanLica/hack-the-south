@@ -72,6 +72,7 @@ export default {
 
 
 
+
 .countdown {
   display: flex;
 }
@@ -93,7 +94,7 @@ export default {
 }
 
 .digit {
-    color: #364859;
+    color: #ffffff;
     font-size: 130px;
     font-weight: 100;
     font-family: 'Roboto', serif;

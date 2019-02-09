@@ -38,11 +38,11 @@
   </div>
 </nav>
 <router-view></router-view>
-<footer id="sticky-footer" class="py-4 bg-dark text-light fixed-bottom">
+<footer class="py-4 bg-dark text-light fixed-bottom ">
     <div class="container text-center">
       <div class="ml-1">
         <a class="fb-ic">
-              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-1.3x"> </i>
+              <i class="fab fa-facebook-f white-text mr-md-5 mr-3 fa-1.3x"> </i>
             </a>
             <!-- Twitter -->
             <a class="tw-ic">
@@ -117,6 +117,9 @@ export default {
 </script>
 
 <style>
+
+
+
 
 .inactiveLink {
    pointer-events: none;

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Landing from '@/components/Landing'
 import Leaderboard from '@/components/Leaderboard'
 import Status from '@/components/Status'
+
 Vue.use(Router)
 
 export default new Router({

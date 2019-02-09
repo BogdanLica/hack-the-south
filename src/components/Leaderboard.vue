@@ -9,6 +9,10 @@
      title="Ranking"  
     :rows_data="Ranking_data" 
     ></vueye-table>
+
+
+
+
   </div>
 </template>
 
