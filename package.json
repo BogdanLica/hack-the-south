@@ -15,7 +15,8 @@
     "i": "^0.3.6",
     "npm": "^6.7.0",
     "vue": "^2.5.22",
-    "vue-router": "^3.0.2"
+    "vue-router": "^3.0.2",
+    "vueye-datatable": "^0.1.16"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
