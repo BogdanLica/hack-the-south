@@ -1,0 +1,22 @@
+[
+    {
+        "rank":1,
+        "name":"Aldolf",
+        "money":"120"
+    },
+    {
+        "rank":2,
+        "name":"Harry",
+        "money":"110"
+    },
+    {
+        "rank":3,
+        "name":"Mary",
+        "money":"90"
+    },
+    {
+        "rank":4,
+        "name":"John",
+        "money":"30"
+    }
+]
