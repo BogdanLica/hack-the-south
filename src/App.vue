@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app_1">
 
   <nav class="navbar navbar-expand-md navbar-light bg-dark ">
 
@@ -102,6 +102,12 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 
 
+
+
+
+
+
+
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
@@ -112,10 +118,10 @@ export default {
 
 <style>
 
-
-
 .inactiveLink {
    pointer-events: none;
    cursor: default;
+
+
 }
 </style>
