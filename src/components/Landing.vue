@@ -12,14 +12,14 @@
       <h2>						What is this?					</h2>
       
       <p>
-        Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+        Padler is a programming game that wants to help you to develop your trading knowledge. You do not need to be an expert, it is enough to be willing to give it a try.
       </p>
     </div>
     <div class="col-md-4 text-center">
       <h2>						Download				</h2>
       
       <p>
-        Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+        All you need to begin is to press the button "Download" below and start coding on our Base Code. After that you go and login in order to upload your code and enter the competition. 
       </p>
 
       <p class="lead ">
@@ -32,10 +32,16 @@
 
     </div>
     <div class="col-md-4 text-center">
-      <h2>						Heading					</h2>
+      <h2>						Stock Market					</h2>
     
       <p>
-        Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+        1. Google - 1.102,38 USD
+      </p>
+      <p>
+        2. Facebook - 167,33 USD
+      </p>
+      <p>
+        3. Microsoft - 105,67 USD
       </p>
     </div>
   </div>
