@@ -18,7 +18,6 @@
 
 <script>
 import VueyeTable from "vueye-datatable";
-import rankings from "./rankings.json";
 export default {
   name: "app",
   data() {
@@ -40,9 +39,12 @@ export default {
   components: {
     VueyeTable
   },
-  mounted() {
-    this.Ranking_data=rankings;
-}
+ mounted() {
+            this.$http.get("http://35.246.18.184:5000/website_api/leaderboard").then(result => {
+                this.Ranking_data = result.data;
+            }
+            );
+        }
 };
 </script>
 
