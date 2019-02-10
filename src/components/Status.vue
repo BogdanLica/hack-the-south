@@ -2,7 +2,7 @@
   <div id="timer_app">
 
           <h4 >
-            <CountdownTimer vs-offset=8 date="2019-07-06 08:15:00"> </CountdownTimer>
+            <CountdownTimer vs-offset=8 date="2019-02-12 08:15:00"> </CountdownTimer>
           </h4>
 
 </div>
