@@ -1,4 +1,5 @@
 <template>
+<div class="my_text">
   <div id="timer_app">
 
           <h4 >
@@ -6,6 +7,20 @@
           </h4>
 
 </div>
+
+  <div class="aaa">
+    <h1 class="display-4 text-dark text-center mt-4 "> Currently available in private beta</h1>
+  </div>
+        
+
+  
+
+</div>
+  
+
+  
+
+
 </template>
 
 
@@ -49,7 +64,12 @@ li {
 a {
   color: #42b983;
 }
+
+
+
+
 </style>
+
 
 
 
