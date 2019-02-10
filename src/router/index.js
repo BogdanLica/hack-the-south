@@ -19,7 +19,9 @@ export default new Router({
     },
     {
       path: '/leaderboard',
-      component: Leaderboard
+      component: Leaderboard,
+      props: {item: Object}
+
     },
     {
       path: '/status',

@@ -20,10 +20,18 @@
 import VueyeTable from "vueye-datatable";
 export default {
   name: "app",
+  props:{
+
+  },
+  created: function()
+  {
+    this.startData()
+    
+  },
   data() {
     return {
      Ranking_attribute :["rank", "name", "money"],
-     Ranking_data: [],
+     Ranking_data : [],
      theme3: {
             backgroundColor: "#364859",
             color: "#eee",
@@ -36,15 +44,19 @@ export default {
             }
     };
   },
+
   components: {
     VueyeTable
   },
- mounted() {
-            this.$http.get("http://35.246.18.184:5000/website_api/leaderboard").then(result => {
-                this.Ranking_data = result.data;
-            }
-            );
-        }
+  methods:{
+    startData : function(){
+      setInterval(() => {
+        this.$http.get("http://35.246.18.184:5000/website_api/leaderboard").then(result => {
+        this.Ranking_data = result.data;
+      });
+      }, 1000)
+    }
+  },
 };
 </script>
 
